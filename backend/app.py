@@ -30,7 +30,12 @@ def init_db():
         )
     ''')
     conn.commit()
-    conn.close()
+    
+    # Call the init_db function before handling any requests
+@app.before_first_request
+def initialize_database():
+    init_db()
+
 
 # Route to handle form submission (POST request)
 @app.route('/submit', methods=['POST'])
