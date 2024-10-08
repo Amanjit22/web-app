@@ -6,3 +6,11 @@
 2024-10-04 23:38:17,522 WARNING:  * Debugger is active!
 2024-10-04 23:38:17,529 INFO:  * Debugger PIN: 994-076-691
 2024-10-04 23:38:17,588 INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-10-04 23:48:33,287 INFO:  * Restarting with stat
+2024-10-04 23:48:34,136 WARNING:  * Debugger is active!
+2024-10-04 23:48:34,155 INFO:  * Debugger PIN: 994-076-691
+2024-10-04 23:48:34,247 INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-10-05 00:05:27,276 ERROR: Error inserting data: 'NoneType' object has no attribute 'get'
+2024-10-05 00:05:27,276 INFO: 127.0.0.1 - - [05/Oct/2024 00:05:27] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-10-05 00:11:05,554 INFO:  * Detected change in 'C:\\Users\\amanj\\web-app\\backend\\app.py', reloading
+2024-10-05 00:11:05,671 INFO:  * Restarting with stat
